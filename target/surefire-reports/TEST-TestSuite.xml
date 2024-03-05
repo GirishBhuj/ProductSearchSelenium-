@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="1" name="TestSuite" time="31.193" errors="0" skipped="0">
+  <properties>
+    <property name="jansi.mode" value="strip"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.21+9-LTS-193"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\01126A744\git\RSASample\Cucumber_Project"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\01126A744\git\RSASample\Cucumber_Project"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.21+9-LTS-193"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\01126A~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\Users\01126A744\New Eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf9198207939124504449.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/01126A744/eclipse/java-2022-06/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/Users/01126A744/eclipse/java-2022-06/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander;;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11\bin;C:\Program Files\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\01126A744\AppData\Local\Microsoft\WindowsApps;C:\Users\01126A744\AppData\Local\Box\Box Edit\;C:\Program Files\Java\jdk-11\bin;C:\Users\01126A744\AppData\Local\GitHubDesktop\bin;C:\Users\01126A744\Desktop;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\01126A744"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="GirishBhujbal"/>
+    <property name="java.class.path" value="C:\Users\01126A744\eclipse\java-2022-06\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.18.3.20220227-1319\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.21"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="maven.home" value="C:\Users\01126A744\git\RSASample\Cucumber_Project\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="CucumberTestRunner.TestRunnerFile" name="runScenario" time="9.958"/>
+  <testcase classname="CucumberTestRunner.TestRunnerFile" name="runScenario" time="10.313"/>
+  <testcase classname="CucumberTestRunner.TestRunnerFile" name="runScenario" time="10.922">
+    <failure message="expected [No data] but found [Beetroot]" type="java.lang.AssertionError">java.lang.AssertionError: expected [No data] but found [Beetroot]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at StepDefinitions.OffersPageStepDefinition.validate_same_product_displayed_in_offers_page(OffersPageStepDefinition.java:55)
+	at ✽.Same product displayed in Offers page(file:///C:/Users/01126A744/git/RSASample/Cucumber_Project/src/test/java/Features/ProductSearch.feature:15)
+</failure>
+  </testcase>
+</testsuite>
